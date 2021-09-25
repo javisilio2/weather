@@ -1,0 +1,5 @@
+<i id="weatherIcon" ng-class="{'card-img-top' : $ctrl.size==='big', 'card-img-bottom' : $ctrl.size==='small'}" class="wi wi-owm-{{$ctrl.detail.weather.id}}"></i>
+<div>
+    <span ng-class="{'mR' : $ctrl.size==='big'}">{{$ctrl.detail.temperature}} ºC</span>
+    <span ng-class="{'mL' : $ctrl.size==='big'}" data-ng-if="$ctrl.size==='big'">{{$ctrl.detail.wind}} Km/h</span>
+</div>

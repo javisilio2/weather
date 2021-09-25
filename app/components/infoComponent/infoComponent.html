@@ -1,0 +1,28 @@
+<h1 class="centerAlign">{{$ctrl.weather.city}}</h1>
+<div class="centerAlign">
+    <weather-detail detail="$ctrl.weather.forecast[0]" size="big"></weather-detail>
+</div>
+<hr>
+<div class="centerAlign card-body">
+    <table id="weatherTable">
+        <tr>
+            <th>{{$ctrl.weather.forecast[1].time}}</th>
+            <th>{{$ctrl.weather.forecast[2].time}}</th>
+            <th>{{$ctrl.weather.forecast[3].time}}</th>
+        </tr>
+        <tr>
+            <td>
+                <weather-detail detail="$ctrl.weather.forecast[1]" size="small"></weather-detail>
+            </td>
+            <td>
+                <weather-detail detail="$ctrl.weather.forecast[2]" size="small"></weather-detail>
+            </td>
+            <td>
+                <weather-detail detail="$ctrl.weather.forecast[3]" size="small"></weather-detail>
+            </td>
+        </tr>
+    </table>
+</div>
+<div class="centerAlign">
+    <a href="#" id="moreInfo" ng-click="$ctrl.openModal()">MORE</a>
+</div>

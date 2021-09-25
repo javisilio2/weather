@@ -1,0 +1,117 @@
+/*Generic styles*/
+  body {
+    height: 100vh;
+    width: 100%;
+    background: #0f2027; 
+    background: linear-gradient(to right,#2c5364, #203a43, #0f2027);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+    font-family: 'Copperplate';
+  }
+
+  .mR {
+    margin-right: 1rem;
+  }
+
+  .mL {
+    margin-left: 1rem;
+  }
+
+  div.inline { 
+    float:left; 
+  }
+
+  .centerAlign {
+    text-align: center;
+  }
+
+/*Citie List Component*/
+
+  .cardIcon {
+    font-size:24px;
+    color: white;
+  }
+
+  #iconRmv {
+    float:right; 
+  }
+
+  #iconRld {
+    float:left; 
+  }
+
+/*Weather detail component*/
+
+  .card-img-top {
+    font-size: 5rem;
+    margin-bottom: 1rem;
+  }
+
+  .card-img-bottom {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+
+/*Search component*/
+
+  #searchForm {
+    margin: 1rem;
+  }
+
+  #inputSearch {
+    text-align: center;
+    border-radius: 0.2rem;
+    border: none;
+    transition: all 0.3s;
+    height: 3rem;
+    min-width: 18rem;
+  }
+
+  #addButton {
+    height: 3rem;
+    background: none;
+    color: white;
+    border: 1px solid white;
+  }
+
+/*Info component*/
+
+  #weatherTable {
+    width:100%;
+  }
+
+  #moreInfo {
+    color: white;
+  }
+
+  .moreInfoBox .ngdialog-content {
+    width: 75rem !important;
+    overflow: auto !important;
+  }
+
+  .moreInfoBox .ngdialog-close {
+    display: none;
+  }
+
+/*Cities list component*/
+
+  .weatherCard {
+    margin: 1rem;
+    width: 16rem;
+    border: 2px white solid;
+    padding: 1rem;
+    border-radius: 0.5rem;
+  }
+
+/*Modal*/
+
+  #weatherFullTable {
+    color: #2c5364;
+  }
+
+  #weatherFullTable th {
+    min-width: 6rem;
+  }

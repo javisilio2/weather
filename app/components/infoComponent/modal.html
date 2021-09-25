@@ -1,0 +1,15 @@
+<div id="weatherFullTable">
+    <common>
+        <h1 class="centerAlign">{{$ctrl.weather.city}}</h1>
+    </common>
+    <table class="centerAlign">
+        <tr>
+            <th ng-repeat="item in $ctrl.weather.forecast">{{item.time}}</th>
+        </tr>
+        <tr>
+            <td ng-repeat="item in $ctrl.weather.forecast">
+                <weather-detail detail="item" size="small"></weather-detail>
+            </td>
+        </tr>
+    </table>
+</div>

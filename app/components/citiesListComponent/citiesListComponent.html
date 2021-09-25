@@ -1,0 +1,15 @@
+<div ng-repeat="city in $ctrl.citiesIndex track by $index" class="weatherCard card inline">   
+    <div>
+        <a href="#" class="cardIcon" ng-click="$ctrl.reloadCity(city)">
+            <span id="iconRld">
+                <i class="fa fa-refresh" aria-hidden="true"></i>
+            </span>
+        </a>
+        <a href="#" class="cardIcon" ng-click="$ctrl.removeCity(city, $index)">
+            <span id="iconRmv">
+                <i class="fa fa-times" aria-hidden="true"></i>
+            </span>
+        </a>
+    </div>
+    <info-component weather="$ctrl.cities[city]"></info-component>
+</div>
