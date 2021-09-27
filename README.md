@@ -15,7 +15,9 @@ Tras esto, ejecutar en el directorio donde se desee contener el código la sigui
 git clone https://github.com/javisilio2/weather.git
 ### Pre-requisitos 📋
 
-Antes de comenzar deberás disponer de node instalado en tu máquina : https://nodejs.org/es/download/
+Antes de comenzar deberás disponer de 
+ - node instalado en tu máquina : https://nodejs.org/es/download/
+ - npm instalado en tu maquina : https://www.npmjs.com/
 
 ### Instalación 🔧
 
